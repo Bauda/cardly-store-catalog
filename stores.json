@@ -1,0 +1,23 @@
+[
+	{
+	  "Id": "a6b68f4b-a52e-4ed4-b244-1fc4e4f69317",
+	  "DisplayName": "Carrefour",
+	  "FileName": "carrefour",
+	  "IconUrl": "https://bauda.github.io/cardly-store-catalog/icons/carrefour.png",
+	  "BackgroundColor": "#000000"
+	},
+	{
+	  "Id": "32bbb808-fb2c-41d0-ae46-006903ec31e3",
+	  "DisplayName": "LIDL",
+	  "FileName": "lidl",
+	  "IconUrl": "https://bauda.github.io/cardly-store-catalog/icons/lidl.png",
+	  "BackgroundColor": "#000000"
+	},
+	{
+	  "Id": "639c4718-3ed5-4ead-84c7-2405272cc37d",
+	  "DisplayName": "IKEA",
+	  "FileName": "ikea",
+	  "IconUrl": "https://bauda.github.io/cardly-store-catalog/icons/ikea.png",
+	  "BackgroundColor": "#000000"
+	} 
+]
