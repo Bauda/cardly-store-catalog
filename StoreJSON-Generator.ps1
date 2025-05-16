@@ -3,7 +3,7 @@
 param (
     [string]$IconsFolder = "$($PSScriptRoot)\icons",
     [string]$CdnBaseUrl = "https://bauda.github.io/cardly-store-catalog/icons",
-    [string]$OutputPath = "$($PSScriptRoot)\store.json"
+    [string]$OutputPath = "$($PSScriptRoot)\storew.json"
 )
 
 $parent = Split-Path -Path $OutputPath -Parent
