@@ -1,23 +1,1486 @@
-[
-	{
-	  "Id": "a6b68f4b-a52e-4ed4-b244-1fc4e4f69317",
-	  "DisplayName": "Carrefour",
-	  "FileName": "carrefour",
-	  "IconUrl": "https://bauda.github.io/cardly-store-catalog/icons/carrefour.png",
-	  "BackgroundColor": "#000000"
-	},
-	{
-	  "Id": "32bbb808-fb2c-41d0-ae46-006903ec31e3",
-	  "DisplayName": "LIDL",
-	  "FileName": "lidl",
-	  "IconUrl": "https://bauda.github.io/cardly-store-catalog/icons/lidl.png",
-	  "BackgroundColor": "#000000"
-	},
-	{
-	  "Id": "639c4718-3ed5-4ead-84c7-2405272cc37d",
-	  "DisplayName": "IKEA",
-	  "FileName": "ikea",
-	  "IconUrl": "https://bauda.github.io/cardly-store-catalog/icons/ikea.png",
-	  "BackgroundColor": "#000000"
-	} 
-]
+{
+  "version": "1.0",
+  "baseIconUrl": "https://bauda.github.io/cardly-store-catalog/icons",
+  "lastUpdated": "2025-01-14T00:00:00Z",
+  "stores": [
+    {
+      "id": "carrefour",
+      "name": "Carrefour",
+      "displayName": "Carrefour",
+      "category": "Supermarket",
+      "backgroundColor": "#0066CC",
+      "country": "FR",
+      "countries": ["FR", "ES", "IT", "PL", "RO", "BE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Carrefour",
+        "fr": "Carrefour",
+        "es": "Carrefour",
+        "it": "Carrefour",
+        "de": "Carrefour"
+      }
+    },
+    {
+      "id": "lidl",
+      "name": "Lidl",
+      "displayName": "Lidl",
+      "category": "Discount Store",
+      "backgroundColor": "#0050AA",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "FR", "ES", "IT", "PL", "CZ", "SK", "HU", "SI", "HR", "RO", "BG", "LT", "LV", "EE", "FI", "SE", "DK", "NL", "BE", "LU", "UK", "IE", "PT", "GR", "CY", "MT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Lidl",
+        "de": "Lidl",
+        "fr": "Lidl",
+        "es": "Lidl",
+        "it": "Lidl"
+      }
+    },
+    {
+      "id": "aldi",
+      "name": "Aldi",
+      "displayName": "Aldi",
+      "category": "Discount Store",
+      "backgroundColor": "#FF6600",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "FR", "ES", "IT", "PL", "CZ", "SK", "HU", "SI", "HR", "DK", "NL", "BE", "LU", "UK", "IE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Aldi",
+        "de": "Aldi",
+        "fr": "Aldi",
+        "es": "Aldi",
+        "it": "Aldi"
+      }
+    },
+    {
+      "id": "ikea",
+      "name": "IKEA",
+      "displayName": "IKEA",
+      "category": "Furniture",
+      "backgroundColor": "#0058A3",
+      "country": "SE",
+      "countries": ["SE", "NO", "DK", "FI", "DE", "AT", "CH", "FR", "ES", "IT", "PL", "CZ", "SK", "HU", "SI", "HR", "RO", "BG", "LT", "LV", "EE", "NL", "BE", "LU", "UK", "IE", "PT", "GR", "CY"],
+      "barcodeFormat": "CODE_128",
+      "localizedNames": {
+        "en": "IKEA",
+        "de": "IKEA",
+        "fr": "IKEA",
+        "es": "IKEA",
+        "it": "IKEA"
+      }
+    },
+    {
+      "id": "tesco",
+      "name": "Tesco",
+      "displayName": "Tesco",
+      "category": "Supermarket",
+      "backgroundColor": "#00539C",
+      "country": "UK",
+      "countries": ["UK", "IE", "PL", "CZ", "SK", "HU"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Tesco",
+        "de": "Tesco",
+        "fr": "Tesco",
+        "es": "Tesco",
+        "it": "Tesco"
+      }
+    },
+    {
+      "id": "metro",
+      "name": "Metro",
+      "displayName": "Metro",
+      "category": "Wholesale",
+      "backgroundColor": "#E30613",
+      "country": "DE",
+      "countries": ["DE", "AT", "FR", "ES", "IT", "PL", "CZ", "SK", "HU", "RO", "BG", "RU", "TR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Metro",
+        "de": "Metro",
+        "fr": "Métro",
+        "es": "Metro",
+        "it": "Metro"
+      }
+    },
+    {
+      "id": "leclerc",
+      "name": "Leclerc",
+      "displayName": "E.Leclerc",
+      "category": "Supermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "FR",
+      "countries": ["FR", "ES", "PL", "IT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Leclerc",
+        "de": "Leclerc",
+        "fr": "E.Leclerc",
+        "es": "Leclerc",
+        "it": "Leclerc"
+      }
+    },
+    {
+      "id": "auchan",
+      "name": "Auchan",
+      "displayName": "Auchan",
+      "category": "Hypermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "FR",
+      "countries": ["FR", "ES", "IT", "PL", "RO", "HU", "PT", "LU", "RU"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Auchan",
+        "de": "Auchan",
+        "fr": "Auchan",
+        "es": "Alcampo",
+        "it": "Auchan"
+      }
+    },
+    {
+      "id": "rewe",
+      "name": "REWE",
+      "displayName": "REWE",
+      "category": "Supermarket",
+      "backgroundColor": "#CC071E",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "REWE",
+        "de": "REWE",
+        "fr": "REWE",
+        "es": "REWE",
+        "it": "REWE"
+      }
+    },
+    {
+      "id": "edeka",
+      "name": "Edeka",
+      "displayName": "EDEKA",
+      "category": "Supermarket",
+      "backgroundColor": "#005AA0",
+      "country": "DE",
+      "countries": ["DE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "EDEKA",
+        "de": "EDEKA",
+        "fr": "EDEKA",
+        "es": "EDEKA",
+        "it": "EDEKA"
+      }
+    },
+    {
+      "id": "kaufland",
+      "name": "Kaufland",
+      "displayName": "Kaufland",
+      "category": "Hypermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "DE",
+      "countries": ["DE", "CZ", "SK", "PL", "RO", "BG", "HR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Kaufland",
+        "de": "Kaufland",
+        "fr": "Kaufland",
+        "es": "Kaufland",
+        "it": "Kaufland"
+      }
+    },
+    {
+      "id": "real",
+      "name": "Real",
+      "displayName": "Real",
+      "category": "Hypermarket",
+      "backgroundColor": "#E30613",
+      "country": "DE",
+      "countries": ["DE", "PL", "RO", "TR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Real",
+        "de": "Real",
+        "fr": "Real",
+        "es": "Real",
+        "it": "Real"
+      }
+    },
+    {
+      "id": "coop",
+      "name": "Coop",
+      "displayName": "Coop",
+      "category": "Supermarket",
+      "backgroundColor": "#FF6600",
+      "country": "CH",
+      "countries": ["CH", "IT", "SE", "NO", "DK", "FI"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Coop",
+        "de": "Coop",
+        "fr": "Coop",
+        "es": "Coop",
+        "it": "Coop"
+      }
+    },
+    {
+      "id": "migros",
+      "name": "Migros",
+      "displayName": "Migros",
+      "category": "Supermarket",
+      "backgroundColor": "#FF6600",
+      "country": "CH",
+      "countries": ["CH", "DE", "AT", "FR", "TR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Migros",
+        "de": "Migros",
+        "fr": "Migros",
+        "es": "Migros",
+        "it": "Migros"
+      }
+    },
+    {
+      "id": "spar",
+      "name": "SPAR",
+      "displayName": "SPAR",
+      "category": "Supermarket",
+      "backgroundColor": "#009639",
+      "country": "NL",
+      "countries": ["AT", "BE", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "CH", "UK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "SPAR",
+        "de": "SPAR",
+        "fr": "SPAR",
+        "es": "SPAR",
+        "it": "SPAR"
+      }
+    },
+    {
+      "id": "mercadona",
+      "name": "Mercadona",
+      "displayName": "Mercadona",
+      "category": "Supermarket",
+      "backgroundColor": "#FF6600",
+      "country": "ES",
+      "countries": ["ES", "PT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Mercadona",
+        "de": "Mercadona",
+        "fr": "Mercadona",
+        "es": "Mercadona",
+        "it": "Mercadona"
+      }
+    },
+    {
+      "id": "elcorteingles",
+      "name": "El Corte Inglés",
+      "displayName": "El Corte Inglés",
+      "category": "Department Store",
+      "backgroundColor": "#009639",
+      "country": "ES",
+      "countries": ["ES", "PT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "El Corte Inglés",
+        "de": "El Corte Inglés",
+        "fr": "El Corte Inglés",
+        "es": "El Corte Inglés",
+        "it": "El Corte Inglés"
+      }
+    },
+    {
+      "id": "dia",
+      "name": "DIA",
+      "displayName": "DIA",
+      "category": "Supermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "ES",
+      "countries": ["ES", "PT", "BR", "AR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "DIA",
+        "de": "DIA",
+        "fr": "DIA",
+        "es": "DIA",
+        "it": "DIA"
+      }
+    },
+    {
+      "id": "eroski",
+      "name": "Eroski",
+      "displayName": "Eroski",
+      "category": "Supermarket",
+      "backgroundColor": "#0066CC",
+      "country": "ES",
+      "countries": ["ES"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Eroski",
+        "de": "Eroski",
+        "fr": "Eroski",
+        "es": "Eroski",
+        "it": "Eroski"
+      }
+    },
+    {
+      "id": "coop_italy",
+      "name": "Coop Italia",
+      "displayName": "Coop",
+      "category": "Supermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "IT",
+      "countries": ["IT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Coop",
+        "de": "Coop",
+        "fr": "Coop",
+        "es": "Coop",
+        "it": "Coop"
+      }
+    },
+    {
+      "id": "conad",
+      "name": "Conad",
+      "displayName": "Conad",
+      "category": "Supermarket",
+      "backgroundColor": "#009639",
+      "country": "IT",
+      "countries": ["IT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Conad",
+        "de": "Conad",
+        "fr": "Conad",
+        "es": "Conad",
+        "it": "Conad"
+      }
+    },
+    {
+      "id": "esselunga",
+      "name": "Esselunga",
+      "displayName": "Esselunga",
+      "category": "Supermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "IT",
+      "countries": ["IT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Esselunga",
+        "de": "Esselunga",
+        "fr": "Esselunga",
+        "es": "Esselunga",
+        "it": "Esselunga"
+      }
+    },
+    {
+      "id": "bennet",
+      "name": "Bennet",
+      "displayName": "Bennet",
+      "category": "Hypermarket",
+      "backgroundColor": "#0066CC",
+      "country": "IT",
+      "countries": ["IT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Bennet",
+        "de": "Bennet",
+        "fr": "Bennet",
+        "es": "Bennet",
+        "it": "Bennet"
+      }
+    },
+    {
+      "id": "iper",
+      "name": "Iper",
+      "displayName": "Iper",
+      "category": "Hypermarket",
+      "backgroundColor": "#FF6600",
+      "country": "IT",
+      "countries": ["IT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Iper",
+        "de": "Iper",
+        "fr": "Iper",
+        "es": "Iper",
+        "it": "Iper"
+      }
+    },
+    {
+      "id": "ica",
+      "name": "ICA",
+      "displayName": "ICA",
+      "category": "Supermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "SE",
+      "countries": ["SE", "NO", "LT", "LV", "EE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "ICA",
+        "de": "ICA",
+        "fr": "ICA",
+        "es": "ICA",
+        "it": "ICA"
+      }
+    },
+    {
+      "id": "coop_sweden",
+      "name": "Coop Sweden",
+      "displayName": "Coop",
+      "category": "Supermarket",
+      "backgroundColor": "#009639",
+      "country": "SE",
+      "countries": ["SE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Coop",
+        "de": "Coop",
+        "fr": "Coop",
+        "es": "Coop",
+        "it": "Coop"
+      }
+    },
+    {
+      "id": "rema1000",
+      "name": "REMA 1000",
+      "displayName": "REMA 1000",
+      "category": "Discount Store",
+      "backgroundColor": "#0066CC",
+      "country": "NO",
+      "countries": ["NO", "DK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "REMA 1000",
+        "de": "REMA 1000",
+        "fr": "REMA 1000",
+        "es": "REMA 1000",
+        "it": "REMA 1000"
+      }
+    },
+    {
+      "id": "kiwi",
+      "name": "Kiwi",
+      "displayName": "KIWI",
+      "category": "Discount Store",
+      "backgroundColor": "#009639",
+      "country": "NO",
+      "countries": ["NO"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "KIWI",
+        "de": "KIWI",
+        "fr": "KIWI",
+        "es": "KIWI",
+        "it": "KIWI"
+      }
+    },
+    {
+      "id": "netto",
+      "name": "Netto",
+      "displayName": "Netto",
+      "category": "Discount Store",
+      "backgroundColor": "#FFED00",
+      "country": "DK",
+      "countries": ["DK", "DE", "PL", "SE", "FI"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Netto",
+        "de": "Netto",
+        "fr": "Netto",
+        "es": "Netto",
+        "it": "Netto"
+      }
+    },
+    {
+      "id": "bilka",
+      "name": "Bilka",
+      "displayName": "Bilka",
+      "category": "Hypermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "DK",
+      "countries": ["DK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Bilka",
+        "de": "Bilka",
+        "fr": "Bilka",
+        "es": "Bilka",
+        "it": "Bilka"
+      }
+    },
+    {
+      "id": "foetex",
+      "name": "Føtex",
+      "displayName": "Føtex",
+      "category": "Supermarket",
+      "backgroundColor": "#0066CC",
+      "country": "DK",
+      "countries": ["DK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Føtex",
+        "de": "Føtex",
+        "fr": "Føtex",
+        "es": "Føtex",
+        "it": "Føtex"
+      }
+    },
+    {
+      "id": "kesko",
+      "name": "K-Market",
+      "displayName": "K-Market",
+      "category": "Supermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "FI",
+      "countries": ["FI"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "K-Market",
+        "de": "K-Market",
+        "fr": "K-Market",
+        "es": "K-Market",
+        "it": "K-Market"
+      }
+    },
+    {
+      "id": "sokos",
+      "name": "Sokos",
+      "displayName": "Sokos",
+      "category": "Department Store",
+      "backgroundColor": "#0066CC",
+      "country": "FI",
+      "countries": ["FI"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Sokos",
+        "de": "Sokos",
+        "fr": "Sokos",
+        "es": "Sokos",
+        "it": "Sokos"
+      }
+    },
+    {
+      "id": "albert_heijn",
+      "name": "Albert Heijn",
+      "displayName": "Albert Heijn",
+      "category": "Supermarket",
+      "backgroundColor": "#0066CC",
+      "country": "NL",
+      "countries": ["NL", "BE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Albert Heijn",
+        "de": "Albert Heijn",
+        "fr": "Albert Heijn",
+        "es": "Albert Heijn",
+        "it": "Albert Heijn"
+      }
+    },
+    {
+      "id": "jumbo",
+      "name": "Jumbo",
+      "displayName": "Jumbo",
+      "category": "Supermarket",
+      "backgroundColor": "#FFED00",
+      "country": "NL",
+      "countries": ["NL", "BE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Jumbo",
+        "de": "Jumbo",
+        "fr": "Jumbo",
+        "es": "Jumbo",
+        "it": "Jumbo"
+      }
+    },
+    {
+      "id": "plus",
+      "name": "PLUS",
+      "displayName": "PLUS",
+      "category": "Supermarket",
+      "backgroundColor": "#009639",
+      "country": "NL",
+      "countries": ["NL"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "PLUS",
+        "de": "PLUS",
+        "fr": "PLUS",
+        "es": "PLUS",
+        "it": "PLUS"
+      }
+    },
+    {
+      "id": "delhaize",
+      "name": "Delhaize",
+      "displayName": "Delhaize",
+      "category": "Supermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "BE",
+      "countries": ["BE", "LU"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Delhaize",
+        "de": "Delhaize",
+        "fr": "Delhaize",
+        "es": "Delhaize",
+        "it": "Delhaize"
+      }
+    },
+    {
+      "id": "colruyt",
+      "name": "Colruyt",
+      "displayName": "Colruyt",
+      "category": "Supermarket",
+      "backgroundColor": "#0066CC",
+      "country": "BE",
+      "countries": ["BE", "FR", "LU"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Colruyt",
+        "de": "Colruyt",
+        "fr": "Colruyt",
+        "es": "Colruyt",
+        "it": "Colruyt"
+      }
+    },
+    {
+      "id": "carrefour_belgium",
+      "name": "Carrefour Belgium",
+      "displayName": "Carrefour",
+      "category": "Supermarket",
+      "backgroundColor": "#0066CC",
+      "country": "BE",
+      "countries": ["BE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Carrefour",
+        "de": "Carrefour",
+        "fr": "Carrefour",
+        "es": "Carrefour",
+        "it": "Carrefour"
+      }
+    },
+    {
+      "id": "continente",
+      "name": "Continente",
+      "displayName": "Continente",
+      "category": "Hypermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "PT",
+      "countries": ["PT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Continente",
+        "de": "Continente",
+        "fr": "Continente",
+        "es": "Continente",
+        "it": "Continente"
+      }
+    },
+    {
+      "id": "pingo_doce",
+      "name": "Pingo Doce",
+      "displayName": "Pingo Doce",
+      "category": "Supermarket",
+      "backgroundColor": "#009639",
+      "country": "PT",
+      "countries": ["PT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Pingo Doce",
+        "de": "Pingo Doce",
+        "fr": "Pingo Doce",
+        "es": "Pingo Doce",
+        "it": "Pingo Doce"
+      }
+    },
+    {
+      "id": "intermarche",
+      "name": "Intermarché",
+      "displayName": "Intermarché",
+      "category": "Supermarket",
+      "backgroundColor": "#0066CC",
+      "country": "FR",
+      "countries": ["FR", "BE", "ES", "PT", "PL"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Intermarché",
+        "de": "Intermarché",
+        "fr": "Intermarché",
+        "es": "Intermarché",
+        "it": "Intermarché"
+      }
+    },
+    {
+      "id": "monoprix",
+      "name": "Monoprix",
+      "displayName": "Monoprix",
+      "category": "Supermarket",
+      "backgroundColor": "#ED1C24",
+      "country": "FR",
+      "countries": ["FR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Monoprix",
+        "de": "Monoprix",
+        "fr": "Monoprix",
+        "es": "Monoprix",
+        "it": "Monoprix"
+      }
+    },
+    {
+      "id": "casino",
+      "name": "Casino",
+      "displayName": "Casino",
+      "category": "Supermarket",
+      "backgroundColor": "#009639",
+      "country": "FR",
+      "countries": ["FR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Casino",
+        "de": "Casino",
+        "fr": "Casino",
+        "es": "Casino",
+        "it": "Casino"
+      }
+    },
+    {
+      "id": "franprix",
+      "name": "Franprix",
+      "displayName": "Franprix",
+      "category": "Convenience Store",
+      "backgroundColor": "#ED1C24",
+      "country": "FR",
+      "countries": ["FR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Franprix",
+        "de": "Franprix",
+        "fr": "Franprix",
+        "es": "Franprix",
+        "it": "Franprix"
+      }
+    },
+    {
+      "id": "simply",
+      "name": "Simply",
+      "displayName": "Simply Market",
+      "category": "Supermarket",
+      "backgroundColor": "#FF6600",
+      "country": "FR",
+      "countries": ["FR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Simply Market",
+        "de": "Simply Market",
+        "fr": "Simply Market",
+        "es": "Simply Market",
+        "it": "Simply Market"
+      }
+    },
+    {
+      "id": "biedronka",
+      "name": "Biedronka",
+      "displayName": "Biedronka",
+      "category": "Discount Store",
+      "backgroundColor": "#ED1C24",
+      "country": "PL",
+      "countries": ["PL"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Biedronka",
+        "de": "Biedronka",
+        "fr": "Biedronka",
+        "es": "Biedronka",
+        "it": "Biedronka"
+      }
+    },
+    {
+      "id": "zabka",
+      "name": "Żabka",
+      "displayName": "Żabka",
+      "category": "Convenience Store",
+      "backgroundColor": "#009639",
+      "country": "PL",
+      "countries": ["PL"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Żabka",
+        "de": "Żabka",
+        "fr": "Żabka",
+        "es": "Żabka",
+        "it": "Żabka"
+      }
+    },
+    {
+      "id": "rossmann",
+      "name": "Rossmann",
+      "displayName": "Rossmann",
+      "category": "Pharmacy",
+      "backgroundColor": "#ED1C24",
+      "country": "DE",
+      "countries": ["DE", "PL", "CZ", "HU", "TR", "AL", "LT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Rossmann",
+        "de": "Rossmann",
+        "fr": "Rossmann",
+        "es": "Rossmann",
+        "it": "Rossmann"
+      }
+    },
+    {
+      "id": "dm",
+      "name": "dm",
+      "displayName": "dm-drogerie markt",
+      "category": "Pharmacy",
+      "backgroundColor": "#0066CC",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "CZ", "SK", "HU", "SI", "HR", "RO", "BG", "IT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "dm",
+        "de": "dm-drogerie markt",
+        "fr": "dm",
+        "es": "dm",
+        "it": "dm"
+      }
+    },
+    {
+      "id": "boots",
+      "name": "Boots",
+      "displayName": "Boots",
+      "category": "Pharmacy",
+      "backgroundColor": "#0066CC",
+      "country": "UK",
+      "countries": ["UK", "IE", "NO", "NL", "TH"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Boots",
+        "de": "Boots",
+        "fr": "Boots",
+        "es": "Boots",
+        "it": "Boots"
+      }
+    },
+    {
+      "id": "superdrug",
+      "name": "Superdrug",
+      "displayName": "Superdrug",
+      "category": "Pharmacy",
+      "backgroundColor": "#FF1493",
+      "country": "UK",
+      "countries": ["UK", "BE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Superdrug",
+        "de": "Superdrug",
+        "fr": "Superdrug",
+        "es": "Superdrug",
+        "it": "Superdrug"
+      }
+    },
+    {
+      "id": "sainsburys",
+      "name": "Sainsbury's",
+      "displayName": "Sainsbury's",
+      "category": "Supermarket",
+      "backgroundColor": "#FF6600",
+      "country": "UK",
+      "countries": ["UK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Sainsbury's",
+        "de": "Sainsbury's",
+        "fr": "Sainsbury's",
+        "es": "Sainsbury's",
+        "it": "Sainsbury's"
+      }
+    },
+    {
+      "id": "asda",
+      "name": "Asda",
+      "displayName": "Asda",
+      "category": "Supermarket",
+      "backgroundColor": "#009639",
+      "country": "UK",
+      "countries": ["UK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Asda",
+        "de": "Asda",
+        "fr": "Asda",
+        "es": "Asda",
+        "it": "Asda"
+      }
+    },
+    {
+      "id": "morrisons",
+      "name": "Morrisons",
+      "displayName": "Morrisons",
+      "category": "Supermarket",
+      "backgroundColor": "#FFED00",
+      "country": "UK",
+      "countries": ["UK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Morrisons",
+        "de": "Morrisons",
+        "fr": "Morrisons",
+        "es": "Morrisons",
+        "it": "Morrisons"
+      }
+    },
+    {
+      "id": "waitrose",
+      "name": "Waitrose",
+      "displayName": "Waitrose",
+      "category": "Supermarket",
+      "backgroundColor": "#009639",
+      "country": "UK",
+      "countries": ["UK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Waitrose",
+        "de": "Waitrose",
+        "fr": "Waitrose",
+        "es": "Waitrose",
+        "it": "Waitrose"
+      }
+    },
+    {
+      "id": "marks_spencer",
+      "name": "M&S",
+      "displayName": "Marks & Spencer",
+      "category": "Department Store",
+      "backgroundColor": "#663399",
+      "country": "UK",
+      "countries": ["UK", "IE", "FR", "CZ", "FI", "GR", "HU", "IN"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Marks & Spencer",
+        "de": "Marks & Spencer",
+        "fr": "Marks & Spencer",
+        "es": "Marks & Spencer",
+        "it": "Marks & Spencer"
+      }
+    },
+    {
+      "id": "hm",
+      "name": "H&M",
+      "displayName": "H&M",
+      "category": "Fashion",
+      "backgroundColor": "#E60000",
+      "country": "SE",
+      "countries": ["SE", "NO", "DK", "FI", "DE", "AT", "CH", "FR", "ES", "IT", "PL", "CZ", "SK", "HU", "SI", "HR", "RO", "BG", "LT", "LV", "EE", "NL", "BE", "LU", "UK", "IE", "PT", "GR", "CY"],
+      "barcodeFormat": "CODE_128",
+      "localizedNames": {
+        "en": "H&M",
+        "de": "H&M",
+        "fr": "H&M",
+        "es": "H&M",
+        "it": "H&M"
+      }
+    },
+    {
+      "id": "zara",
+      "name": "Zara",
+      "displayName": "Zara",
+      "category": "Fashion",
+      "backgroundColor": "#000000",
+      "country": "ES",
+      "countries": ["ES", "PT", "FR", "IT", "DE", "AT", "CH", "BE", "NL", "LU", "UK", "IE", "SE", "NO", "DK", "FI", "PL", "CZ", "SK", "HU", "SI", "HR", "RO", "BG", "LT", "LV", "EE", "GR", "CY", "MT", "TR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Zara",
+        "de": "Zara",
+        "fr": "Zara",
+        "es": "Zara",
+        "it": "Zara"
+      }
+    },
+    {
+      "id": "c_and_a",
+      "name": "C&A",
+      "displayName": "C&A",
+      "category": "Fashion",
+      "backgroundColor": "#ED1C24",
+      "country": "NL",
+      "countries": ["NL", "BE", "DE", "AT", "CH", "FR", "ES", "IT", "PL", "CZ", "SK", "HU", "SI", "HR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "C&A",
+        "de": "C&A",
+        "fr": "C&A",
+        "es": "C&A",
+        "it": "C&A"
+      }
+    },
+    {
+      "id": "uniqlo",
+      "name": "Uniqlo",
+      "displayName": "Uniqlo",
+      "category": "Fashion",
+      "backgroundColor": "#ED1C24",
+      "country": "JP",
+      "countries": ["UK", "FR", "DE", "IT", "ES", "BE", "NL", "SE", "DK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Uniqlo",
+        "de": "Uniqlo",
+        "fr": "Uniqlo",
+        "es": "Uniqlo",
+        "it": "Uniqlo"
+      }
+    },
+    {
+      "id": "primark",
+      "name": "Primark",
+      "displayName": "Primark",
+      "category": "Fashion",
+      "backgroundColor": "#0066CC",
+      "country": "IE",
+      "countries": ["IE", "UK", "ES", "PT", "NL", "BE", "DE", "AT", "FR", "IT", "PL", "CZ", "SI"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Primark",
+        "de": "Primark",
+        "fr": "Primark",
+        "es": "Primark",
+        "it": "Primark"
+      }
+    },
+    {
+      "id": "decathlon",
+      "name": "Decathlon",
+      "displayName": "Decathlon",
+      "category": "Sports",
+      "backgroundColor": "#0066CC",
+      "country": "FR",
+      "countries": ["FR", "ES", "IT", "DE", "BE", "NL", "PL", "HU", "CZ", "RO", "PT", "UK", "TR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Decathlon",
+        "de": "Decathlon",
+        "fr": "Décathlon",
+        "es": "Decathlon",
+        "it": "Decathlon"
+      }
+    },
+    {
+      "id": "intersport",
+      "name": "Intersport",
+      "displayName": "Intersport",
+      "category": "Sports",
+      "backgroundColor": "#0066CC",
+      "country": "CH",
+      "countries": ["CH", "FR", "DE", "AT", "ES", "IT", "BE", "NL", "PL", "CZ", "SK", "HU", "SI", "HR", "FI", "NO", "SE", "DK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Intersport",
+        "de": "Intersport",
+        "fr": "Intersport",
+        "es": "Intersport",
+        "it": "Intersport"
+      }
+    },
+    {
+      "id": "go_sport",
+      "name": "GO Sport",
+      "displayName": "GO Sport",
+      "category": "Sports",
+      "backgroundColor": "#FF6600",
+      "country": "FR",
+      "countries": ["FR", "BE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "GO Sport",
+        "de": "GO Sport",
+        "fr": "GO Sport",
+        "es": "GO Sport",
+        "it": "GO Sport"
+      }
+    },
+    {
+      "id": "sportsdirect",
+      "name": "Sports Direct",
+      "displayName": "Sports Direct",
+      "category": "Sports",
+      "backgroundColor": "#0066CC",
+      "country": "UK",
+      "countries": ["UK", "IE", "BE", "NL", "DE", "AT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Sports Direct",
+        "de": "Sports Direct",
+        "fr": "Sports Direct",
+        "es": "Sports Direct",
+        "it": "Sports Direct"
+      }
+    },
+    {
+      "id": "douglas",
+      "name": "Douglas",
+      "displayName": "Douglas",
+      "category": "Beauty",
+      "backgroundColor": "#000000",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "NL", "BE", "FR", "ES", "IT", "PL", "CZ", "SK", "HU", "SI", "HR", "LT", "LV"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Douglas",
+        "de": "Douglas",
+        "fr": "Douglas",
+        "es": "Douglas",
+        "it": "Douglas"
+      }
+    },
+    {
+      "id": "sephora",
+      "name": "Sephora",
+      "displayName": "Sephora",
+      "category": "Beauty",
+      "backgroundColor": "#000000",
+      "country": "FR",
+      "countries": ["FR", "ES", "IT", "DE", "AT", "CH", "BE", "NL", "LU", "PL", "CZ", "HU", "RO", "GR", "PT"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Sephora",
+        "de": "Sephora",
+        "fr": "Sephora",
+        "es": "Sephora",
+        "it": "Sephora"
+      }
+    },
+    {
+      "id": "media_markt",
+      "name": "MediaMarkt",
+      "displayName": "MediaMarkt",
+      "category": "Electronics",
+      "backgroundColor": "#ED1C24",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "IT", "ES", "PT", "NL", "BE", "PL", "HU", "TR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "MediaMarkt",
+        "de": "MediaMarkt",
+        "fr": "MediaMarkt",
+        "es": "MediaMarkt",
+        "it": "MediaMarkt"
+      }
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "displayName": "Saturn",
+      "category": "Electronics",
+      "backgroundColor": "#ED1C24",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "LU"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Saturn",
+        "de": "Saturn",
+        "fr": "Saturn",
+        "es": "Saturn",
+        "it": "Saturn"
+      }
+    },
+    {
+      "id": "fnac",
+      "name": "Fnac",
+      "displayName": "Fnac",
+      "category": "Electronics",
+      "backgroundColor": "#FFED00",
+      "country": "FR",
+      "countries": ["FR", "BE", "ES", "PT", "CH"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Fnac",
+        "de": "Fnac",
+        "fr": "Fnac",
+        "es": "Fnac",
+        "it": "Fnac"
+      }
+    },
+    {
+      "id": "darty",
+      "name": "Darty",
+      "displayName": "Darty",
+      "category": "Electronics",
+      "backgroundColor": "#ED1C24",
+      "country": "FR",
+      "countries": ["FR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Darty",
+        "de": "Darty",
+        "fr": "Darty",
+        "es": "Darty",
+        "it": "Darty"
+      }
+    },
+    {
+      "id": "euronics",
+      "name": "Euronics",
+      "displayName": "Euronics",
+      "category": "Electronics",
+      "backgroundColor": "#0066CC",
+      "country": "NL",
+      "countries": ["NL", "DE", "AT", "CH", "FR", "ES", "IT", "BE", "FI", "NO", "SE", "DK", "PL", "CZ", "SK", "HU", "SI", "PT", "UK", "IE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Euronics",
+        "de": "Euronics",
+        "fr": "Euronics",
+        "es": "Euronics",
+        "it": "Euronics"
+      }
+    },
+    {
+      "id": "currys",
+      "name": "Currys",
+      "displayName": "Currys",
+      "category": "Electronics",
+      "backgroundColor": "#0066CC",
+      "country": "UK",
+      "countries": ["UK", "IE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Currys",
+        "de": "Currys",
+        "fr": "Currys",
+        "es": "Currys",
+        "it": "Currys"
+      }
+    },
+    {
+      "id": "argos",
+      "name": "Argos",
+      "displayName": "Argos",
+      "category": "Electronics",
+      "backgroundColor": "#ED1C24",
+      "country": "UK",
+      "countries": ["UK", "IE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Argos",
+        "de": "Argos",
+        "fr": "Argos",
+        "es": "Argos",
+        "it": "Argos"
+      }
+    },
+    {
+      "id": "obi",
+      "name": "OBI",
+      "displayName": "OBI",
+      "category": "DIY",
+      "backgroundColor": "#FF6600",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "IT", "CZ", "SK", "HU", "SI", "PL", "RU"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "OBI",
+        "de": "OBI",
+        "fr": "OBI",
+        "es": "OBI",
+        "it": "OBI"
+      }
+    },
+    {
+      "id": "bauhaus",
+      "name": "Bauhaus",
+      "displayName": "BAUHAUS",
+      "category": "DIY",
+      "backgroundColor": "#0066CC",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "DK", "SE", "NO", "FI", "CZ", "SK", "SI", "HR", "HU", "BG", "RO", "TR", "ES"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "BAUHAUS",
+        "de": "BAUHAUS",
+        "fr": "BAUHAUS",
+        "es": "BAUHAUS",
+        "it": "BAUHAUS"
+      }
+    },
+    {
+      "id": "hornbach",
+      "name": "Hornbach",
+      "displayName": "HORNBACH",
+      "category": "DIY",
+      "backgroundColor": "#FF6600",
+      "country": "DE",
+      "countries": ["DE", "AT", "CH", "LU", "NL", "CZ", "SK", "RO", "SE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "HORNBACH",
+        "de": "HORNBACH",
+        "fr": "HORNBACH",
+        "es": "HORNBACH",
+        "it": "HORNBACH"
+      }
+    },
+    {
+      "id": "leroy_merlin",
+      "name": "Leroy Merlin",
+      "displayName": "Leroy Merlin",
+      "category": "DIY",
+      "backgroundColor": "#009639",
+      "country": "FR",
+      "countries": ["FR", "ES", "PT", "IT", "PL", "RO", "RU", "UA", "GR"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Leroy Merlin",
+        "de": "Leroy Merlin",
+        "fr": "Leroy Merlin",
+        "es": "Leroy Merlin",
+        "it": "Leroy Merlin"
+      }
+    },
+    {
+      "id": "castorama",
+      "name": "Castorama",
+      "displayName": "Castorama",
+      "category": "DIY",
+      "backgroundColor": "#0066CC",
+      "country": "FR",
+      "countries": ["FR", "PL", "RU"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Castorama",
+        "de": "Castorama",
+        "fr": "Castorama",
+        "es": "Castorama",
+        "it": "Castorama"
+      }
+    },
+    {
+      "id": "brico_depot",
+      "name": "Brico Dépôt",
+      "displayName": "Brico Dépôt",
+      "category": "DIY",
+      "backgroundColor": "#FF6600",
+      "country": "FR",
+      "countries": ["FR", "ES", "PT", "RO"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Brico Dépôt",
+        "de": "Brico Dépôt",
+        "fr": "Brico Dépôt",
+        "es": "Brico Depót",
+        "it": "Brico Dépôt"
+      }
+    },
+    {
+      "id": "bq",
+      "name": "B&Q",
+      "displayName": "B&Q",
+      "category": "DIY",
+      "backgroundColor": "#FF6600",
+      "country": "UK",
+      "countries": ["UK", "IE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "B&Q",
+        "de": "B&Q",
+        "fr": "B&Q",
+        "es": "B&Q",
+        "it": "B&Q"
+      }
+    },
+    {
+      "id": "homebase",
+      "name": "Homebase",
+      "displayName": "Homebase",
+      "category": "DIY",
+      "backgroundColor": "#009639",
+      "country": "UK",
+      "countries": ["UK", "IE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Homebase",
+        "de": "Homebase",
+        "fr": "Homebase",
+        "es": "Homebase",
+        "it": "Homebase"
+      }
+    },
+    {
+      "id": "wickes",
+      "name": "Wickes",
+      "displayName": "Wickes",
+      "category": "DIY",
+      "backgroundColor": "#FF6600",
+      "country": "UK",
+      "countries": ["UK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Wickes",
+        "de": "Wickes",
+        "fr": "Wickes",
+        "es": "Wickes",
+        "it": "Wickes"
+      }
+    },
+    {
+      "id": "john_lewis",
+      "name": "John Lewis",
+      "displayName": "John Lewis",
+      "category": "Department Store",
+      "backgroundColor": "#009639",
+      "country": "UK",
+      "countries": ["UK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "John Lewis",
+        "de": "John Lewis",
+        "fr": "John Lewis",
+        "es": "John Lewis",
+        "it": "John Lewis"
+      }
+    },
+    {
+      "id": "debenhams",
+      "name": "Debenhams",
+      "displayName": "Debenhams",
+      "category": "Department Store",
+      "backgroundColor": "#663399",
+      "country": "UK",
+      "countries": ["UK", "IE", "DK"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "Debenhams",
+        "de": "Debenhams",
+        "fr": "Debenhams",
+        "es": "Debenhams",
+        "it": "Debenhams"
+      }
+    },
+    {
+      "id": "house_of_fraser",
+      "name": "House of Fraser",
+      "displayName": "House of Fraser",
+      "category": "Department Store",
+      "backgroundColor": "#000000",
+      "country": "UK",
+      "countries": ["UK", "IE"],
+      "barcodeFormat": "EAN_13",
+      "localizedNames": {
+        "en": "House of Fraser",
+        "de": "House of Fraser",
+        "fr": "House of Fraser",
+        "es": "House of Fraser",
+        "it": "House of Fraser"
+      }
+    }
+  ]
+}
