@@ -40,9 +40,49 @@
         "barcodeFormat":  "CODE_128"
     },
     {
-        "name":  "",
-        "backgroundColor":  "F01428",
-        "source":  "www.aircanada.com",
+        "name":  "Tigotà",
+        "backgroundColor":  "069eaf",
+        "source":  "",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "Domino Pizza",
+        "backgroundColor":  "ffffff",
+        "source":  "",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "Eurospin",
+        "backgroundColor":  "0069b1",
+        "source":  "eurospin.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "Crai",
+        "backgroundColor":  "006f44",
+        "source":  "crai-supermercati.it",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "Bennet",
+        "backgroundColor":  "ee1b24",
+        "source":  "bennet.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "Mercadona",
+        "backgroundColor":  "009660",
+        "source":  "",
         "aliases":  null,
         "category":  "",
         "barcodeFormat":  "CODE_128"
@@ -50,7 +90,7 @@
     {
         "name":  "",
         "backgroundColor":  "F01428",
-        "source":  "www.aircanada.com",
+        "source":  "",
         "aliases":  null,
         "category":  "",
         "barcodeFormat":  "CODE_128"
@@ -58,7 +98,7 @@
     {
         "name":  "",
         "backgroundColor":  "F01428",
-        "source":  "www.aircanada.com",
+        "source":  "",
         "aliases":  null,
         "category":  "",
         "barcodeFormat":  "CODE_128"
@@ -66,23 +106,7 @@
     {
         "name":  "",
         "backgroundColor":  "F01428",
-        "source":  "www.aircanada.com",
-        "aliases":  null,
-        "category":  "",
-        "barcodeFormat":  "CODE_128"
-    },
-    {
-        "name":  "",
-        "backgroundColor":  "F01428",
-        "source":  "www.aircanada.com",
-        "aliases":  null,
-        "category":  "",
-        "barcodeFormat":  "CODE_128"
-    },
-    {
-        "name":  "",
-        "backgroundColor":  "F01428",
-        "source":  "www.aircanada.com",
+        "source":  "",
         "aliases":  null,
         "category":  "",
         "barcodeFormat":  "CODE_128"
@@ -1763,8 +1787,8 @@
     },
     {
         "name":  "Carrefour",
-        "backgroundColor":  "004E9F",
-        "source":  "en.wikipedia.org",
+        "backgroundColor":  "254f9b",
+        "source":  "carrefour.com",
         "aliases":  null,
         "category":  "",
         "barcodeFormat":  "CODE_128"
@@ -9407,7 +9431,7 @@
     },
     {
         "name":  "Lidl",
-        "backgroundColor":  "ffffff",
+        "backgroundColor":  "0050aa",
         "source":  "www.lidl.de",
         "aliases":  null,
         "category":  "",
