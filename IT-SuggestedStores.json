@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Coop",
+    "backgroundColor": "F94144",
+    "source": "www.coop.it",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Conad",
+    "backgroundColor": "F3722C",
+    "source": "www.conad.it",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Esselunga",
+    "backgroundColor": "F9C74F",
+    "source": "www.esselunga.it",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Carrefour Italia",
+    "backgroundColor": "90BE6D",
+    "source": "www.carrefour.it",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Unieuro",
+    "backgroundColor": "43AA8B",
+    "source": "www.unieuro.it",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "MediaWorld",
+    "backgroundColor": "577590",
+    "source": "www.mediaworld.it",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Decathlon",
+    "backgroundColor": "277DA1",
+    "source": "www.decathlon.it",
+    "aliases": null,
+    "category": "Sporting Goods",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Euronics",
+    "backgroundColor": "D62828",
+    "source": "www.euronics.it",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Pam Panorama",
+    "backgroundColor": "C8553D",
+    "source": "www.pam.it",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Tigros",
+    "backgroundColor": "8D99AE",
+    "source": "www.tigros.it",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  }
+]

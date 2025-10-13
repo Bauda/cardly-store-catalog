@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Amazon",
+    "backgroundColor": "FF7043",
+    "source": "www.amazon.com",
+    "aliases": null,
+    "category": "Online Retail",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "eBay",
+    "backgroundColor": "7E57C2",
+    "source": "www.ebay.com",
+    "aliases": null,
+    "category": "Online Marketplace",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "H&M",
+    "backgroundColor": "26C6DA",
+    "source": "www.hm.com",
+    "aliases": null,
+    "category": "Fashion",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Zara",
+    "backgroundColor": "66BB6A",
+    "source": "www.zara.com",
+    "aliases": null,
+    "category": "Fashion",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "IKEA",
+    "backgroundColor": "D4E157",
+    "source": "www.ikea.com",
+    "aliases": null,
+    "category": "Home Furnishings",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Nike",
+    "backgroundColor": "FFCA28",
+    "source": "www.nike.com",
+    "aliases": null,
+    "category": "Sporting Goods",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Adidas",
+    "backgroundColor": "EC407A",
+    "source": "www.adidas.com",
+    "aliases": null,
+    "category": "Sporting Goods",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Decathlon",
+    "backgroundColor": "42A5F5",
+    "source": "www.decathlon.com",
+    "aliases": null,
+    "category": "Sporting Goods",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Starbucks",
+    "backgroundColor": "8D6E63",
+    "source": "www.starbucks.com",
+    "aliases": null,
+    "category": "Coffee",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "McDonald's",
+    "backgroundColor": "AB47BC",
+    "source": "www.mcdonalds.com",
+    "aliases": null,
+    "category": "Fast Food",
+    "barcodeFormat": "CODE_128"
+  }
+]

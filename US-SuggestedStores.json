@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Walmart",
+    "backgroundColor": "FF6B6B",
+    "source": "www.walmart.com",
+    "aliases": null,
+    "category": "General Merchandise",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Target",
+    "backgroundColor": "4ECDC4",
+    "source": "www.target.com",
+    "aliases": null,
+    "category": "General Merchandise",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Costco",
+    "backgroundColor": "45B7D1",
+    "source": "www.costco.com",
+    "aliases": null,
+    "category": "Warehouse Club",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Walgreens",
+    "backgroundColor": "FDCB6E",
+    "source": "www.walgreens.com",
+    "aliases": null,
+    "category": "Pharmacy",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "CVS Pharmacy",
+    "backgroundColor": "A29BFE",
+    "source": "www.cvs.com",
+    "aliases": null,
+    "category": "Pharmacy",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "The Home Depot",
+    "backgroundColor": "00B894",
+    "source": "www.homedepot.com",
+    "aliases": null,
+    "category": "Home Improvement",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Lowe's",
+    "backgroundColor": "D63031",
+    "source": "www.lowes.com",
+    "aliases": null,
+    "category": "Home Improvement",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Best Buy",
+    "backgroundColor": "0984E3",
+    "source": "www.bestbuy.com",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Kroger",
+    "backgroundColor": "E84393",
+    "source": "www.kroger.com",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Safeway",
+    "backgroundColor": "6C5CE7",
+    "source": "www.safeway.com",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  }
+]

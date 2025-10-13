@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Mercadona",
+    "backgroundColor": "EF5350",
+    "source": "www.mercadona.es",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Carrefour",
+    "backgroundColor": "AB47BC",
+    "source": "www.carrefour.es",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "El Corte Inglés",
+    "backgroundColor": "5C6BC0",
+    "source": "www.elcorteingles.es",
+    "aliases": null,
+    "category": "Department Store",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Dia",
+    "backgroundColor": "29B6F6",
+    "source": "www.dia.es",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Alcampo",
+    "backgroundColor": "66BB6A",
+    "source": "www.alcampo.es",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Consum",
+    "backgroundColor": "FFCA28",
+    "source": "www.consum.es",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Eroski",
+    "backgroundColor": "8D6E63",
+    "source": "www.eroski.es",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Decathlon",
+    "backgroundColor": "EC407A",
+    "source": "www.decathlon.es",
+    "aliases": null,
+    "category": "Sporting Goods",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "MediaMarkt",
+    "backgroundColor": "26A69A",
+    "source": "www.mediamarkt.es",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Lidl",
+    "backgroundColor": "9CCC65",
+    "source": "www.lidl.es",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  }
+]

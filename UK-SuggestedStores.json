@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Tesco",
+    "backgroundColor": "FF8A65",
+    "source": "www.tesco.com",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Sainsbury's",
+    "backgroundColor": "4DB6AC",
+    "source": "www.sainsburys.co.uk",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Asda",
+    "backgroundColor": "64B5F6",
+    "source": "www.asda.com",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Morrisons",
+    "backgroundColor": "FFD54F",
+    "source": "www.morrisons.com",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Boots",
+    "backgroundColor": "BA68C8",
+    "source": "www.boots.com",
+    "aliases": null,
+    "category": "Pharmacy",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Argos",
+    "backgroundColor": "81C784",
+    "source": "www.argos.co.uk",
+    "aliases": null,
+    "category": "General Merchandise",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Marks & Spencer",
+    "backgroundColor": "E57373",
+    "source": "www.marksandspencer.com",
+    "aliases": null,
+    "category": "Department Store",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Waitrose",
+    "backgroundColor": "1E88E5",
+    "source": "www.waitrose.com",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Iceland",
+    "backgroundColor": "F06292",
+    "source": "www.iceland.co.uk",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Co-op",
+    "backgroundColor": "9575CD",
+    "source": "www.coop.co.uk",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  }
+]

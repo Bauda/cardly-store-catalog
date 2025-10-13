@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Edeka",
+    "backgroundColor": "E53935",
+    "source": "www.edeka.de",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Rewe",
+    "backgroundColor": "8E24AA",
+    "source": "www.rewe.de",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Aldi Süd",
+    "backgroundColor": "1E88E5",
+    "source": "www.aldi-sued.de",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Aldi Nord",
+    "backgroundColor": "43A047",
+    "source": "www.aldi-nord.de",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Lidl",
+    "backgroundColor": "FDD835",
+    "source": "www.lidl.de",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "MediaMarkt",
+    "backgroundColor": "FB8C00",
+    "source": "www.mediamarkt.de",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Saturn",
+    "backgroundColor": "00ACC1",
+    "source": "www.saturn.de",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "dm",
+    "backgroundColor": "8D6E63",
+    "source": "www.dm.de",
+    "aliases": null,
+    "category": "Drugstore",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Rossmann",
+    "backgroundColor": "7CB342",
+    "source": "www.rossmann.de",
+    "aliases": null,
+    "category": "Drugstore",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Kaufland",
+    "backgroundColor": "5E35B1",
+    "source": "www.kaufland.de",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  }
+]

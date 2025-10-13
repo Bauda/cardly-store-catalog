@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Carrefour",
+    "backgroundColor": "FF5252",
+    "source": "www.carrefour.fr",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Auchan",
+    "backgroundColor": "FFB74D",
+    "source": "www.auchan.fr",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "E.Leclerc",
+    "backgroundColor": "FFF176",
+    "source": "www.e-leclerc.com",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Intermarché",
+    "backgroundColor": "AED581",
+    "source": "www.intermarche.com",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Monoprix",
+    "backgroundColor": "4DD0E1",
+    "source": "www.monoprix.fr",
+    "aliases": null,
+    "category": "Department Store",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Fnac",
+    "backgroundColor": "9575CD",
+    "source": "www.fnac.com",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Decathlon",
+    "backgroundColor": "F06292",
+    "source": "www.decathlon.fr",
+    "aliases": null,
+    "category": "Sporting Goods",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Darty",
+    "backgroundColor": "81C784",
+    "source": "www.darty.com",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Boulanger",
+    "backgroundColor": "90CAF9",
+    "source": "www.boulanger.com",
+    "aliases": null,
+    "category": "Electronics",
+    "barcodeFormat": "CODE_128"
+  },
+  {
+    "name": "Casino",
+    "backgroundColor": "A1887F",
+    "source": "www.casino.fr",
+    "aliases": null,
+    "category": "Grocery",
+    "barcodeFormat": "CODE_128"
+  }
+]
