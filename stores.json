@@ -1,5 +1,99 @@
 ﻿[
     {
+        "name":  "Trony",
+        "backgroundColor":  "232b65",
+        "source":  "www.trony.it",
+        "aliases":  null,
+        "category":  "Electronics",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "H & M",
+        "backgroundColor":  "ffffff",
+        "source":  "www.hm.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "Coop",
+        "backgroundColor":  "ed1c24",
+        "source":  "",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "Conad",
+        "backgroundColor":  "ffffff",
+        "source":  "",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "7Eleven",
+        "backgroundColor":  "ffffff",
+        "source":  "",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "",
+        "backgroundColor":  "F01428",
+        "source":  "www.aircanada.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "",
+        "backgroundColor":  "F01428",
+        "source":  "www.aircanada.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "",
+        "backgroundColor":  "F01428",
+        "source":  "www.aircanada.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "",
+        "backgroundColor":  "F01428",
+        "source":  "www.aircanada.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "",
+        "backgroundColor":  "F01428",
+        "source":  "www.aircanada.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+    {
+        "name":  "",
+        "backgroundColor":  "F01428",
+        "source":  "www.aircanada.com",
+        "aliases":  null,
+        "category":  "",
+        "barcodeFormat":  "CODE_128"
+    },
+
+
+
+
+
+
+    {
         "name":  "Air Canada",
         "backgroundColor":  "F01428",
         "source":  "www.aircanada.com",
@@ -257,7 +351,7 @@
     },
     {
         "name":  "Auchan",
-        "backgroundColor":  "D6180B",
+        "backgroundColor":  "ffffff",
         "source":  "www.auchan.fr",
         "aliases":  null,
         "category":  "",
@@ -2318,14 +2412,6 @@
         "barcodeFormat":  "CODE_128"
     },
     {
-        "name":  "Co-op",
-        "backgroundColor":  "00B1E7",
-        "source":  "www.co-operative.coop",
-        "aliases":  null,
-        "category":  "",
-        "barcodeFormat":  "CODE_128"
-    },
-    {
         "name":  "cobalt",
         "backgroundColor":  "FFFFFF",
         "source":  "cobalt.tools",
@@ -2662,14 +2748,6 @@
         "name":  "Comsol",
         "backgroundColor":  "368CCB",
         "source":  "cdn.comsol.com",
-        "aliases":  null,
-        "category":  "",
-        "barcodeFormat":  "CODE_128"
-    },
-    {
-        "name":  "Conan",
-        "backgroundColor":  "6699CB",
-        "source":  "conan.io",
         "aliases":  null,
         "category":  "",
         "barcodeFormat":  "CODE_128"
@@ -3999,7 +4077,7 @@
     },
     {
         "name":  "E.Leclerc",
-        "backgroundColor":  "0066CC",
+        "backgroundColor":  "ed8b18",
         "source":  "www.e.leclerc",
         "aliases":  null,
         "category":  "",
@@ -7616,7 +7694,7 @@
     },
     {
         "name":  "IKEA",
-        "backgroundColor":  "0058A3",
+        "backgroundColor":  "0058ab",
         "source":  "www.ikea.com",
         "aliases":  null,
         "category":  "",
@@ -8517,7 +8595,7 @@
     },
     {
         "name":  "Kaufland",
-        "backgroundColor":  "E10915",
+        "backgroundColor":  "ffffff",
         "source":  "www.kaufland.com",
         "aliases":  null,
         "category":  "",
@@ -9329,7 +9407,7 @@
     },
     {
         "name":  "Lidl",
-        "backgroundColor":  "0050AA",
+        "backgroundColor":  "ffffff",
         "source":  "www.lidl.de",
         "aliases":  null,
         "category":  "",
@@ -12714,7 +12792,7 @@
     },
     {
         "name":  "Penny",
-        "backgroundColor":  "CD1414",
+        "backgroundColor":  "d2232a",
         "source":  "www.penny.de",
         "aliases":  null,
         "category":  "",
@@ -19329,7 +19407,7 @@
     },
     {
         "name":  "Walmart",
-        "backgroundColor":  "0071CE",
+        "backgroundColor":  "ffffff",
         "source":  "corporate.walmart.com",
         "aliases":  null,
         "category":  "",
