@@ -14,7 +14,7 @@
         },
         {
             "id": 2,
-            "name": "H \u0026 M",
+            "name": "H & M",
             "backgroundColor": "ffffff",
             "source": "www.hm.com",
             "aliases": null,
@@ -482,7 +482,7 @@
         },
         {
             "id": 54,
-            "name": "AT\u0026T",
+            "name": "AT&T",
             "backgroundColor": "009FDB",
             "source": "www.att.com",
             "aliases": null,
@@ -707,7 +707,7 @@
         },
         {
             "id": 79,
-            "name": "B\u0026R Automation",
+            "name": "B&R Automation",
             "backgroundColor": "FF8800",
             "source": "www.br-automation.com",
             "aliases": null,
@@ -4603,12 +4603,12 @@
         },
         {
             "id": 505,
-            "name": "Dungeons \u0026 Dragons",
+            "name": "Dungeons & Dragons",
             "backgroundColor": "ED1C24",
             "source": "dnd.wizards.com",
             "aliases": {
                 "aka": [
-                    "D\u0026D"
+                    "D&D"
                 ]
             },
             "category": "",
@@ -7249,7 +7249,7 @@
         },
         {
             "id": 794,
-            "name": "Google Display \u0026 Video 360",
+            "name": "Google Display & Video 360",
             "backgroundColor": "34A853",
             "source": "marketingplatform.google.com",
             "aliases": null,
@@ -7786,7 +7786,7 @@
         },
         {
             "id": 851,
-            "name": "H\u0026M",
+            "name": "H&M",
             "backgroundColor": "E50010",
             "source": "www2.hm.com",
             "aliases": null,
@@ -8247,7 +8247,7 @@
         },
         {
             "id": 900,
-            "name": "Hilton Hotels \u0026 Resorts",
+            "name": "Hilton Hotels & Resorts",
             "backgroundColor": "1E4380",
             "source": "www.hilton.com",
             "aliases": null,
@@ -22112,7 +22112,7 @@
         },
         {
             "id": 2400,
-            "name": "Weights \u0026 Biases",
+            "name": "Weights & Biases",
             "backgroundColor": "FFBE00",
             "source": "wandb.ai",
             "aliases": null,
